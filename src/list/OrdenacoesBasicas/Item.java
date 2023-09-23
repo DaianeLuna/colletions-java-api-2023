@@ -1,4 +1,4 @@
-package list;
+package list.OrdenacoesBasicas;
 
 public class Item {
 
@@ -18,6 +18,14 @@ public class Item {
 
         return nome;
     }
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
+
     public double getPreco() {
         return preco;
     }

@@ -1,4 +1,4 @@
-package list;
+package list.OrdenacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +46,6 @@ public class CarrinhoDeCompras {
     public String exibirItens() {
         return itemList.toString();
     }
-
 
     public static void main(String[] args) {
 
